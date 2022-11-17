@@ -1,0 +1,11 @@
+.header :link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar {
+  background-color: rgb(207, 230, 239);
+}
+.navbar :link {
+  text-decoration: none;
+  margin-left: 20px;
+}
