@@ -23,7 +23,7 @@ const Header = () => {
             <Link to='/faq'>FAQ</Link>
             <Link to='/login'>Login</Link>
             <Link to='/register'>Register</Link>
-            {user?.displayName}
+            {/* {user.displayName} */}
           </Nav>
         </Navbar.Collapse>
       </Container>
