@@ -8,36 +8,34 @@ import FAQ from "../Shared/FAQ/FAQ";
 import Home from "../Shared/Home/Home";
 
 export const router = createBrowserRouter([
-    {
-        path:'/',
-        element:<Main></Main>,
-        children:[
-            {
-                path:'/',
-                element:<Home></Home>
-            },
-            {
-                path:'/blog',
-                element:<Blog></Blog>
-            },
-            {
-                path:'/faq',
-                element:<FAQ></FAQ>
-            },
-            {
-                path:'/Course',
-                element:<Course></Course>
-                
-            },
-            {
-                path:'/login',
-                element:<Login></Login>
-            },
-            {
-                path:'/register',
-                element:<Register></Register>
-            }
-  
-        ]
-    }
+  {
+    path: "/",
+    element: <Main></Main>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/faq",
+        element: <FAQ></FAQ>,
+      },
+      {
+        path: "/Course",
+        element: <Course></Course>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
+      },
+    ],
+  },
 ]);
